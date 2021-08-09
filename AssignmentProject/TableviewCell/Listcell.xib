@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="KGk-i7-Jjw" customClass="Listcell" customModule="AssignmentProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df9-dq-yKg">
+                        <rect key="frame" x="16" y="10" width="288" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="kaZ-uj-wY7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-ge-oCo">
+                        <rect key="frame" x="16" y="37" width="288" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="tyH-vn-kjx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEO-GT-bPl">
+                        <rect key="frame" x="16" y="66" width="288" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qBU-2J-Lus"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlT-yw-lrf">
+                        <rect key="frame" x="16" y="95" width="288" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="XSW-N4-SEE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KDe-ge-oCo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="36F-az-JiN"/>
+                    <constraint firstItem="RlT-yw-lrf" firstAttribute="trailing" secondItem="KDe-ge-oCo" secondAttribute="trailing" id="AvV-uY-YdG"/>
+                    <constraint firstItem="DEO-GT-bPl" firstAttribute="top" secondItem="KDe-ge-oCo" secondAttribute="bottom" constant="8" id="FPJ-qS-GWR"/>
+                    <constraint firstItem="DEO-GT-bPl" firstAttribute="leading" secondItem="KDe-ge-oCo" secondAttribute="leading" id="RFY-lR-zhe"/>
+                    <constraint firstItem="df9-dq-yKg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Ti2-2t-WTG"/>
+                    <constraint firstAttribute="trailing" secondItem="df9-dq-yKg" secondAttribute="trailing" constant="16" id="Yzy-Sy-ZWB"/>
+                    <constraint firstItem="RlT-yw-lrf" firstAttribute="top" secondItem="DEO-GT-bPl" secondAttribute="bottom" constant="8" id="bk3-6j-LX9"/>
+                    <constraint firstItem="DEO-GT-bPl" firstAttribute="trailing" secondItem="KDe-ge-oCo" secondAttribute="trailing" id="eJT-kH-brC"/>
+                    <constraint firstItem="df9-dq-yKg" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="fNd-34-48s"/>
+                    <constraint firstItem="KDe-ge-oCo" firstAttribute="top" secondItem="df9-dq-yKg" secondAttribute="bottom" constant="6" id="hIm-Mi-nQc"/>
+                    <constraint firstAttribute="trailing" secondItem="KDe-ge-oCo" secondAttribute="trailing" constant="16" id="ly5-9w-InB"/>
+                    <constraint firstItem="RlT-yw-lrf" firstAttribute="leading" secondItem="KDe-ge-oCo" secondAttribute="leading" id="wlR-86-I5f"/>
+                    <constraint firstItem="df9-dq-yKg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="y6O-hz-6UN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbBounting" destination="RlT-yw-lrf" id="Hul-bH-2cq"/>
+                <outlet property="lbDate" destination="df9-dq-yKg" id="gG0-4D-G4s"/>
+                <outlet property="lbNotes" destination="DEO-GT-bPl" id="43Y-Ms-0iH"/>
+                <outlet property="lbTitle" destination="KDe-ge-oCo" id="DSh-Ua-3Yu"/>
+            </connections>
+            <point key="canvasLocation" x="15.942028985507248" y="108.48214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
